@@ -64,7 +64,7 @@ php artisan key:generate
 
 ---
 
-## 🗂 Project Setup (Local)
+## 👤 Admin Access
 
 UPDATE users SET is_admin = 1 WHERE email = 'ma5io@outlook.com';
 
