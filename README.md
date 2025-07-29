@@ -71,7 +71,7 @@ php artisan key:generate
 
 ---
 
-MIT License
+## MIT License
 
 Copyright (c) 2025 Mario Lim
 
