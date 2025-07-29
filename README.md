@@ -56,13 +56,13 @@
 
 ## 📸 Screenshots 
 
-![Homepage] <img width="1713" height="801" alt="image" src="https://github.com/user-attachments/assets/a37f75b6-33b5-4e8d-824e-5310d7a2a5ae" />
-![Logged In] <img width="1638" height="654" alt="image" src="https://github.com/user-attachments/assets/eb071e87-01e4-40ba-b287-2afbec06516e" />
-![Create Post] <img width="1461" height="770" alt="image" src="https://github.com/user-attachments/assets/9f95ce54-04aa-4ae4-8cc6-b4e232d2e5e2" />
-![Upload Post] <img width="1611" height="464" alt="image" src="https://github.com/user-attachments/assets/87dd5e0f-5cf7-41ab-aa36-11039158f931" />
-![Edit Post] <img width="1455" height="829" alt="image" src="https://github.com/user-attachments/assets/ebfc88e1-c6ce-47d7-8f73-97f68b704ca8" />
-![Delete Post] <img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/273b2710-f34c-4128-a823-738d0e9e032e" />
-![Upload Avatar] <img width="1740" height="458" alt="image" src="https://github.com/user-attachments/assets/60fa66eb-bb85-4947-a905-d82568ec84bc" />
+**Homepage** <img width="1713" height="801" alt="image" src="https://github.com/user-attachments/assets/a37f75b6-33b5-4e8d-824e-5310d7a2a5ae" />
+**Logged In** <img width="1638" height="654" alt="image" src="https://github.com/user-attachments/assets/eb071e87-01e4-40ba-b287-2afbec06516e" />
+**Create Post** <img width="1461" height="770" alt="image" src="https://github.com/user-attachments/assets/9f95ce54-04aa-4ae4-8cc6-b4e232d2e5e2" />
+**Upload Post** <img width="1611" height="464" alt="image" src="https://github.com/user-attachments/assets/87dd5e0f-5cf7-41ab-aa36-11039158f931" />
+**Edit Post** <img width="1455" height="829" alt="image" src="https://github.com/user-attachments/assets/ebfc88e1-c6ce-47d7-8f73-97f68b704ca8" />
+**Delete Post** <img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/273b2710-f34c-4128-a823-738d0e9e032e" />
+**Upload Avatar** <img width="1740" height="458" alt="image" src="https://github.com/user-attachments/assets/60fa66eb-bb85-4947-a905-d82568ec84bc" />
 
 ---
 
