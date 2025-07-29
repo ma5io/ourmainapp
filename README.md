@@ -56,7 +56,6 @@
 
 ## 🗂 Project Setup (Local)
 
-```bash
 git clone https://github.com/ma5io/ourmainapp.git
 cd ourmainapp
 composer install
