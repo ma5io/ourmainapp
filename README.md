@@ -54,7 +54,7 @@
 
 ---
 
-## 📸 Screenshots 
+## 📸 Preview 
 
 **Homepage** <img width="1713" height="801" alt="image" src="https://github.com/user-attachments/assets/a37f75b6-33b5-4e8d-824e-5310d7a2a5ae" />
 **Logged In** <img width="1638" height="654" alt="image" src="https://github.com/user-attachments/assets/eb071e87-01e4-40ba-b287-2afbec06516e" />
