@@ -5,12 +5,36 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
+use Intervention\Image\ImageManager;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Drivers\Gd\Driver;
 
 class UserController extends Controller
 {
     public function storeAvatar(Request $request) {
-        $request->file('avatar')->store('avatars', 'public');
-        return 'hey';
+        $request->validate([
+            'avatar' => 'required|image|max:6000'
+        ]);
+
+        $user = auth()->user(); // check which authenticated user uploads the avatar
+
+        $filename = $user->id . "-" . uniqid() . ".jpg"; // use that user's id and create a unique file name
+
+        $manager = new ImageManager(new Driver()); // opens ImageManager and uses Driver
+        $image = $manager->read($request->file('avatar')); // opens the uploded image and store it in this variable
+        $imgData = $image->cover(120, 120)->toJpeg(); // turns that $image to 120x120 and store it to this variable
+        Storage::disk('public')->put('avatars/' . $filename, $imgData); // saves it in the given directory
+
+        $oldAvatar = $user->avatar; // store it to this variable, so that we could delete it later
+
+        $user->avatar = $filename; // sets the avatar to the newly generated filename
+        $user->save();
+
+        if ($oldAvatar != "/fallback-avatar.jpg") { // if the image isnt the fallback image, delete it
+            Storage::disk('public')->delete(str_replace("/storage/", "", $oldAvatar));
+        }
+
+        return back()->with('success', 'Congrats on the new avatar!');
     }
 
     public function showAvatarForm() {
@@ -18,7 +42,7 @@ class UserController extends Controller
     }
 
     public function profile(User $user) { // passing data from controller to
-        return view('profile-posts', ['username' => $user->username, 'posts' => $user->posts()->latest()->get(), 'postCount' => $user->posts()->count()]);
+        return view('profile-posts', ['avatar' => $user->avatar, 'username' => $user->username, 'posts' => $user->posts()->latest()->get(), 'postCount' => $user->posts()->count()]);
     }
 
     public function logout() {
