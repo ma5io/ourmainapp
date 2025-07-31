@@ -57,12 +57,12 @@
 ## 📸 Preview 
 
 **Homepage** <img width="1713" height="801" alt="image" src="https://github.com/user-attachments/assets/a37f75b6-33b5-4e8d-824e-5310d7a2a5ae" />
-**Logged In** <img width="1638" height="654" alt="image" src="https://github.com/user-attachments/assets/eb071e87-01e4-40ba-b287-2afbec06516e" />
-**Create Post** <img width="1461" height="770" alt="image" src="https://github.com/user-attachments/assets/9f95ce54-04aa-4ae4-8cc6-b4e232d2e5e2" />
-**Upload Post** <img width="1611" height="464" alt="image" src="https://github.com/user-attachments/assets/87dd5e0f-5cf7-41ab-aa36-11039158f931" />
-**Edit Post** <img width="1455" height="829" alt="image" src="https://github.com/user-attachments/assets/ebfc88e1-c6ce-47d7-8f73-97f68b704ca8" />
-**Delete Post** <img width="1722" height="830" alt="image" src="https://github.com/user-attachments/assets/273b2710-f34c-4128-a823-738d0e9e032e" />
-**Upload Avatar** <img width="1740" height="458" alt="image" src="https://github.com/user-attachments/assets/60fa66eb-bb85-4947-a905-d82568ec84bc" />
+**Logged In** <img width="1736" height="692" alt="image" src="https://github.com/user-attachments/assets/b3e0437b-9451-4132-84f6-35e54cb0d593" />
+**Create Post** <img width="1484" height="768" alt="image" src="https://github.com/user-attachments/assets/1a67c16a-bc2c-40a5-86d5-6c56b38bb83b" />
+**Upload Post** <img width="1736" height="687" alt="image" src="https://github.com/user-attachments/assets/a740c61b-b672-4e47-9a75-c687181e1072" />
+**Edit Post** <img width="1527" height="820" alt="image" src="https://github.com/user-attachments/assets/8f4be9f2-8216-40b8-96c8-6c926296f62b" />
+**Delete Post** <img width="1730" height="734" alt="image" src="https://github.com/user-attachments/assets/b6cfb09d-56ae-4fb6-9086-9497c2a011d6" />
+**Upload Avatar** <img width="1746" height="665" alt="image" src="https://github.com/user-attachments/assets/e6029567-687c-4785-b5ac-1e42cca48030" />
 
 ---
 
